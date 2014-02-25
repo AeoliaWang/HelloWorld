@@ -15,19 +15,19 @@ public class MainAction extends AbstractAction {
 		Date date = new Date();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd k:m:s");
 		return sdf.format(date);
-    }
+	}
 
 	private String getDefaultMessage(){
 		return "Hello !\nMy Name is " + this.userId;
 	}
 	
 	public String execute() throws Exception {
-		this.userId = (String)this.getSessionMap().get("userId");
+		this.userId = (String)this.sessionMap.get("userId");
 		this.sendDate = getDefaultDate();
 		this.comment = getDefaultMessage();
 		return "success";
-    }
-   
+	}
+
 	public String resetDate() throws Exception {
 		this.sendDate = getDefaultDate();
 		return "success";
@@ -49,5 +49,5 @@ public class MainAction extends AbstractAction {
 		this.response.sendRedirect("/HelloStruts2/profile.action?userId=" + this.userId);		
 		return "success";
 	}
-	
+
 }

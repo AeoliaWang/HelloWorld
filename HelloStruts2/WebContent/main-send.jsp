@@ -26,6 +26,8 @@
 			<dd><%=request.getParameter("comment") %></dd>
 		</dl>
 	</div>
-	<p><a href="main">Back</a></p>
+	<p><a href="main.action">Back</a></p>
+
+
 </div>
 <jsp:include page="footer.jsp"/>

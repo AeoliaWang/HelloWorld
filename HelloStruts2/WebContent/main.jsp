@@ -30,7 +30,6 @@
 	<div class="form-group">
 		<div class="col-sm-offset-2 col-sm-10">
 			<s:submit method="send" value="SEND" cssClass="btn btn-primary"/>
-			<p>main.action[ send method ] → main-send.jsp</p>
 		</div>
 	</div>
 </s:form>

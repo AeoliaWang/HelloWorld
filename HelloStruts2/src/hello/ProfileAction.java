@@ -8,6 +8,6 @@ public class ProfileAction extends AbstractAction {
 
 	public String execute() throws Exception {
 		return "success";
-    }
+	}
 	
 }
