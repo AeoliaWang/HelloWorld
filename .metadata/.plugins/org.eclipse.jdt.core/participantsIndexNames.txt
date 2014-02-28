@@ -1,3 +1,9 @@
 INDEX VERSION 1.126
+C:\IDE\eclipse_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4257765367.index
+\HelloGaeStruts2old\src
+C:\IDE\eclipse_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1385614497.index
+\HelloStruts2onGAE\src
+C:\IDE\eclipse_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\527325499.index
+\HelloGaeStruts2\src
 C:\IDE\eclipse_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3304152251.index
 \HelloStruts2\src
